@@ -1,0 +1,1052 @@
+[
+  {
+    "date": "Friday, January 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Allowance",
+    "sub_category": "From dad",
+    "type": "Income",
+    "amount": 8000
+  },
+  {
+    "date": "Friday, January 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Snacks",
+    "type": "Expense",
+    "amount": 85
+  },
+  {
+    "date": "Sunday, January 3, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From dad",
+    "type": "Income",
+    "amount": 500
+  },
+  {
+    "date": "Sunday, January 3, 2024",
+    "mode": "CUB - online payment",
+    "category": "Household",
+    "sub_category": "Stuffs",
+    "type": "Expense",
+    "amount": 6667
+  },
+  {
+    "date": "Sunday, January 3, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Metro",
+    "type": "Expense",
+    "amount": 30
+  },
+  {
+    "date": "Sunday, January 3, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Dinner",
+    "type": "Expense",
+    "amount": 78
+  },
+  {
+    "date": "Tuesday, January 12, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch with company",
+    "type": "Expense",
+    "amount": 1460
+  },
+  {
+    "date": "Wednesday, January 13, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Rapido to pg",
+    "type": "Expense",
+    "amount": 43
+  },
+  {
+    "date": "Wednesday, January 13, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Dinner",
+    "type": "Expense",
+    "amount": 66
+  },
+  {
+    "date": "Thursday, January 14, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "Gundan + prasanna",
+    "type": "Income",
+    "amount": 340
+  },
+  {
+    "date": "Friday, January 15, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From dad",
+    "type": "Income",
+    "amount": 1500
+  },
+  {
+    "date": "Friday, January 15, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Snacks",
+    "type": "Expense",
+    "amount": 70
+  },
+  {
+    "date": "Sunday, January 17, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Eve snack",
+    "type": "Expense",
+    "amount": 1100
+  },
+  {
+    "date": "Monday, January 18, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch with company",
+    "type": "Expense",
+    "amount": 148
+  },
+  {
+    "date": "Monday, January 18, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Snack with preethi",
+    "type": "Expense",
+    "amount": 59
+  },
+  {
+    "date": "Monday, January 18, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Dinner",
+    "type": "Expense",
+    "amount": 301.15
+  },
+  {
+    "date": "Tuesday, January 19, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch + chocolate for preethi",
+    "type": "Expense",
+    "amount": 171
+  },
+  {
+    "date": "Thursday, January 21, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From vicky",
+    "type": "Income",
+    "amount": 200
+  },
+  {
+    "date": "Thursday, January 21, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Snacks",
+    "type": "Expense",
+    "amount": 37
+  },
+  {
+    "date": "Thursday, January 21, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch with company",
+    "type": "Expense",
+    "amount": 188
+  },
+  {
+    "date": "Saturday, January 23, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From dad",
+    "type": "Income",
+    "amount": 2000
+  },
+  {
+    "date": "Saturday, January 23, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Snacks with preethi and azar",
+    "type": "Expense",
+    "amount": 176
+  },
+  {
+    "date": "Saturday, January 23, 2024",
+    "mode": "CUB - online payment",
+    "category": "apparel",
+    "sub_category": "Badminton",
+    "type": "Expense",
+    "amount": 200
+  },
+  {
+    "date": "Saturday, January 23, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From vicky",
+    "type": "Income",
+    "amount": 310
+  },
+  {
+    "date": "Monday, January 25, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lemon tea",
+    "type": "Expense",
+    "amount": 18
+  },
+  {
+    "date": "Tuesday, January 26, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Paani poori",
+    "type": "Expense",
+    "amount": 25
+  },
+  {
+    "date": "Tuesday, January 26, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "Vishnu 100 gowdham 25",
+    "type": "Income",
+    "amount": 125
+  },
+  {
+    "date": "Tuesday, January 26, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Snacks",
+    "type": "Expense",
+    "amount": 115
+  },
+  {
+    "date": "Wednesday, January 27, 2024",
+    "mode": "CUB - online payment",
+    "category": "salary",
+    "sub_category": "office",
+    "type": "Income",
+    "amount": 55000
+  },
+  {
+    "date": "Wednesday, January 27, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Zinger box meal",
+    "type": "Expense",
+    "amount": 279
+  },
+  {
+    "date": "Wednesday, January 27, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To vishnu",
+    "type": "Expense",
+    "amount": 1100
+  },
+  {
+    "date": "Thursday, January 28, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch with company",
+    "type": "Expense",
+    "amount": 138
+  },
+  {
+    "date": "Thursday, January 28, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Banana",
+    "type": "Expense",
+    "amount": 10
+  },
+  {
+    "date": "Friday, January 29, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "Sent to barath",
+    "type": "Expense",
+    "amount": 100
+  },
+  {
+    "date": "Saturday, January 30, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Brunch",
+    "type": "Expense",
+    "amount": 105
+  },
+  {
+    "date": "Saturday, January 30, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Cycle gap",
+    "type": "Expense",
+    "amount": 120
+  },
+  {
+    "date": "Saturday, January 30, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Dinner",
+    "type": "Expense",
+    "amount": 155
+  },
+  {
+    "date": "Sunday, January 31, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To vicky",
+    "type": "Expense",
+    "amount": 200
+  },
+  {
+    "date": "Monday, February 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Train to vnr",
+    "type": "Expense",
+    "amount": 725
+  },
+  {
+    "date": "Monday, February 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Dinner with barath",
+    "type": "Expense",
+    "amount": 200
+  },
+  {
+    "date": "Monday, February 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "Tablet to gowdham",
+    "type": "Expense",
+    "amount": 8
+  },
+  {
+    "date": "Tuesday, February 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Parotta",
+    "type": "Expense",
+    "amount": 120
+  },
+  {
+    "date": "Wednesday, February 3, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Brownie",
+    "type": "Expense",
+    "amount": 50
+  },
+  {
+    "date": "Saturday, February 13, 2024",
+    "mode": "CUB - online payment",
+    "category": "apparel",
+    "sub_category": "Games",
+    "type": "Expense",
+    "amount": 100
+  },
+  {
+    "date": "Tuesday, February 16, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Kfc",
+    "type": "Expense",
+    "amount": 475
+  },
+  {
+    "date": "Tuesday, February 16, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Side dishes",
+    "type": "Expense",
+    "amount": 165
+  },
+  {
+    "date": "Wednesday, February 17, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch",
+    "type": "Expense",
+    "amount": 80
+  },
+  {
+    "date": "Thursday, February 18, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Kfc dinner",
+    "type": "Expense",
+    "amount": 348
+  },
+  {
+    "date": "Friday, February 19, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "To egmore",
+    "type": "Expense",
+    "amount": 2709
+  },
+  {
+    "date": "Friday, February 19, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To auto anna",
+    "type": "Expense",
+    "amount": 50
+  },
+  {
+    "date": "Friday, February 19, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Metro",
+    "type": "Expense",
+    "amount": 60
+  },
+  {
+    "date": "Friday, February 19, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Bus ticket",
+    "type": "Expense",
+    "amount": 1575
+  },
+  {
+    "date": "Friday, February 19, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Snacks",
+    "type": "Expense",
+    "amount": 250
+  },
+  {
+    "date": "Friday, February 19, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Random stuff for drinks",
+    "type": "Expense",
+    "amount": 111
+  },
+  {
+    "date": "Saturday, February 20, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch",
+    "type": "Expense",
+    "amount": 200
+  },
+  {
+    "date": "Sunday, February 21, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Train cbe to chn",
+    "type": "Expense",
+    "amount": 201.8
+  },
+  {
+    "date": "Sunday, February 21, 2024",
+    "mode": "CUB - online payment",
+    "category": "Household",
+    "sub_category": "Stuffs",
+    "type": "Expense",
+    "amount": 3336
+  },
+  {
+    "date": "Sunday, February 21, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "It better be worth it",
+    "type": "Expense",
+    "amount": 1300
+  },
+  {
+    "date": "Tuesday, February 23, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Eggs",
+    "type": "Expense",
+    "amount": 83
+  },
+  {
+    "date": "Tuesday, February 23, 2024",
+    "mode": "CUB - online payment",
+    "category": "Apparel",
+    "sub_category": "Hoodie for gobi",
+    "type": "Expense",
+    "amount": 3999
+  },
+  {
+    "date": "Wednesday, February 24, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Creamstone",
+    "type": "Expense",
+    "amount": 289
+  },
+  {
+    "date": "Friday, February 26, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Tea lights",
+    "type": "Expense",
+    "amount": 84
+  },
+  {
+    "date": "Friday, February 26, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To karthi",
+    "type": "Expense",
+    "amount": 100
+  },
+  {
+    "date": "Saturday, February 27, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch",
+    "type": "Expense",
+    "amount": 243
+  },
+  {
+    "date": "Sunday, February 28, 2024",
+    "mode": "CUB - online payment",
+    "category": "salary",
+    "sub_category": "office",
+    "type": "Income",
+    "amount": 55000
+  },
+  {
+    "date": "Sunday, February 28, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Pizza",
+    "type": "Expense",
+    "amount": 339.15
+  },
+  {
+    "date": "Monday, March 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From abi",
+    "type": "Income",
+    "amount": 300
+  },
+  {
+    "date": "Monday, March 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch unlimited nv",
+    "type": "Expense",
+    "amount": 300
+  },
+  {
+    "date": "Monday, March 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From shakur",
+    "type": "Income",
+    "amount": 1140
+  },
+  {
+    "date": "Monday, March 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From barath",
+    "type": "Income",
+    "amount": 201
+  },
+  {
+    "date": "Monday, March 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Dairy milk",
+    "type": "Expense",
+    "amount": 10
+  },
+  {
+    "date": "Tuesday, March 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To gowdham",
+    "type": "Expense",
+    "amount": 150
+  },
+  {
+    "date": "Tuesday, March 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Good soup",
+    "type": "Expense",
+    "amount": 50
+  },
+  {
+    "date": "Monday, March 15, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Bus to Bangalore",
+    "type": "Expense",
+    "amount": 1365
+  },
+  {
+    "date": "Sunday, March 21, 2024",
+    "mode": "CUB - online payment",
+    "category": "salary",
+    "sub_category": "office",
+    "type": "Income",
+    "amount": 55000
+  },
+  {
+    "date": "Monday, March 22, 2024",
+    "mode": "CUB - online payment",
+    "category": "Household",
+    "sub_category": "Stuffs",
+    "type": "Expense",
+    "amount": 5120
+  },
+  {
+    "date": "Tuesday, March 23, 2024",
+    "mode": "CUB - online payment",
+    "category": "Apparel",
+    "sub_category": "Earphone",
+    "type": "Expense",
+    "amount": 3997
+  },
+  {
+    "date": "Wednesday, March 31, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "To ksr station",
+    "type": "Expense",
+    "amount": 153
+  },
+  {
+    "date": "Thursday, April 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Sent to preethi",
+    "type": "Expense",
+    "amount": 107
+  },
+  {
+    "date": "Thursday, April 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To vicky",
+    "type": "Expense",
+    "amount": 80
+  },
+  {
+    "date": "Thursday, April 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch with company",
+    "type": "Expense",
+    "amount": 106
+  },
+  {
+    "date": "Thursday, April 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Education",
+    "sub_category": "Arrear and reval fee",
+    "type": "Expense",
+    "amount": 14000
+  },
+  {
+    "date": "Saturday, April 3, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To lended people",
+    "type": "Expense",
+    "amount": 300
+  },
+  {
+    "date": "Monday, April 19, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Took from sbi",
+    "type": "Expense",
+    "amount": 200
+  },
+  {
+    "date": "Monday, April 19, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Ramen with gobi",
+    "type": "Expense",
+    "amount": 380
+  },
+  {
+    "date": "Wednesday, April 21, 2024",
+    "mode": "CUB - online payment",
+    "category": "Salary",
+    "sub_category": "office",
+    "type": "Income",
+    "amount": 55000
+  },
+  {
+    "date": "Thursday, April 22, 2024",
+    "mode": "CUB - online payment",
+    "category": "Household",
+    "sub_category": "Stuffs",
+    "type": "Expense",
+    "amount": 5180
+  },
+  {
+    "date": "Thursday, April 22, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Shawarma",
+    "type": "Expense",
+    "amount": 80
+  },
+  {
+    "date": "Sunday, April 25, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Cab",
+    "type": "Expense",
+    "amount": 306
+  },
+  {
+    "date": "Saturday, May 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch with company",
+    "type": "Expense",
+    "amount": 388
+  },
+  {
+    "date": "Saturday, May 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Refund for bus ticket",
+    "type": "Expense",
+    "amount": 600
+  },
+  {
+    "date": "Saturday, May 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To abijith and to vicky lend money returned",
+    "type": "Expense",
+    "amount": 500
+  },
+  {
+    "date": "Saturday, May 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To gobi 1st 1/4th",
+    "type": "Expense",
+    "amount": 500
+  },
+  {
+    "date": "Saturday, May 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "Lended money returned to kumara",
+    "type": "Expense",
+    "amount": 30
+  },
+  {
+    "date": "Saturday, May 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Jan 2nd with shakur and barath",
+    "type": "Expense",
+    "amount": 354
+  },
+  {
+    "date": "Saturday, May 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "Lended money returned to vishnu",
+    "type": "Expense",
+    "amount": 40
+  },
+  {
+    "date": "Tuesday, May 18, 2024",
+    "mode": "CUB - online payment",
+    "category": "apparel",
+    "sub_category": "Spiderman",
+    "type": "Expense",
+    "amount": 1363.72
+  },
+  {
+    "date": "Friday, May 21, 2024",
+    "mode": "CUB - online payment",
+    "category": "salary",
+    "sub_category": "office",
+    "type": "Income",
+    "amount": 55000
+  },
+  {
+    "date": "Saturday, May 22, 2024",
+    "mode": "CUB - online payment",
+    "category": "Household",
+    "sub_category": "Stuffs",
+    "type": "Expense",
+    "amount": 5120
+  },
+  {
+    "date": "Monday, May 31, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Vnr to apk",
+    "type": "Expense",
+    "amount": 50
+  },
+  {
+    "date": "Tuesday, June 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Rapido to pg",
+    "type": "Expense",
+    "amount": 429
+  },
+  {
+    "date": "Tuesday, June 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Bingo",
+    "type": "Expense",
+    "amount": 10
+  },
+  {
+    "date": "Tuesday, June 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Dinner with roommate",
+    "type": "Expense",
+    "amount": 877.81
+  },
+  {
+    "date": "Tuesday, June 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Ketch up",
+    "type": "Expense",
+    "amount": 200
+  },
+  {
+    "date": "Tuesday, June 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From barath and shakur",
+    "type": "Income",
+    "amount": 440
+  },
+  {
+    "date": "Wednesday, June 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To gobi",
+    "type": "Expense",
+    "amount": 4500
+  },
+  {
+    "date": "Wednesday, June 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "To chennai",
+    "type": "Expense",
+    "amount": 1000
+  },
+  {
+    "date": "Wednesday, June 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "To kumara",
+    "type": "Expense",
+    "amount": 150
+  },
+  {
+    "date": "Wednesday, June 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Cakepark",
+    "type": "Expense",
+    "amount": 125
+  },
+  {
+    "date": "Wednesday, June 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Dinner with aravind and buddies",
+    "type": "Expense",
+    "amount": 491
+  },
+  {
+    "date": "Monday, June 14, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Snacks",
+    "type": "Expense",
+    "amount": 749
+  },
+  {
+    "date": "Tuesday, June 22, 2024",
+    "mode": "CUB - online payment",
+    "category": "Household",
+    "sub_category": "Stuffs",
+    "type": "Expense",
+    "amount": 4120
+  },
+  {
+    "date": "Tuesday, June 22, 2024",
+    "mode": "CUB - online payment",
+    "category": "salary",
+    "sub_category": "office",
+    "type": "Income",
+    "amount": 55000
+  },
+  {
+    "date": "Thursday, July 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Coffee + biscuit",
+    "type": "Expense",
+    "amount": 1599
+  },
+  {
+    "date": "Friday, July 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Auto to Gobi's place",
+    "type": "Expense",
+    "amount": 214
+  },
+  {
+    "date": "Sunday, July 18, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "To kumara",
+    "type": "Expense",
+    "amount": 200
+  },
+  {
+    "date": "Thursday, July 22, 2024",
+    "mode": "CUB - online payment",
+    "category": "Household",
+    "sub_category": "Stuffs",
+    "type": "Expense",
+    "amount": 4620
+  },
+  {
+    "date": "Friday, July 23, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch",
+    "type": "Expense",
+    "amount": 302
+  },
+  {
+    "date": "Saturday, July 24, 2024",
+    "mode": "CUB - online payment",
+    "category": "apparel",
+    "sub_category": "Beer",
+    "type": "Expense",
+    "amount": 1500
+  },
+  {
+    "date": "Sunday, July 25, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Kfc date with myself",
+    "type": "Expense",
+    "amount": 259
+  },
+  {
+    "date": "Monday, July 26, 2024",
+    "mode": "CUB - online payment",
+    "category": "salary",
+    "sub_category": "office",
+    "type": "Income",
+    "amount": 55000
+  },
+  {
+    "date": "Tuesday, July 27, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From vicky",
+    "type": "Income",
+    "amount": 300
+  },
+  {
+    "date": "Sunday, August 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Household",
+    "sub_category": "Rent",
+    "type": "Expense",
+    "amount": 4580
+  },
+  {
+    "date": "Sunday, August 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Food",
+    "sub_category": "Lunch with gowdham",
+    "type": "Expense",
+    "amount": 535.3
+  },
+  {
+    "date": "Sunday, August 1, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From gowdham",
+    "type": "Income",
+    "amount": 260
+  },
+  {
+    "date": "Monday, August 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "salary",
+    "sub_category": "office",
+    "type": "Income",
+    "amount": 55000
+  },
+  {
+    "date": "Monday, August 2, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "From dad",
+    "type": "Income",
+    "amount": 500
+  },
+  {
+    "date": "Tuesday, August 17, 2024",
+    "mode": "CUB - online payment",
+    "category": "Other",
+    "sub_category": "Gave to gowdham",
+    "type": "Expense",
+    "amount": 50
+  },
+  {
+    "date": "Saturday, August 21, 2024",
+    "mode": "CUB - online payment",
+    "category": "Transportation",
+    "sub_category": "Travel to koyambedu",
+    "type": "Expense",
+    "amount": 138
+  },
+  {
+    "date": "2025-05-03",
+    "type": "income",
+    "category": "Rent",
+    "sub_category": "Home",
+    "description": "Monthly Rent for home",
+    "amount": 1000,
+    "payment_method": "Cash"
+  },
+  {
+    "date": "2025-05-04",
+    "type": "income",
+    "category": "Salary",
+    "sub_category": "Bonus",
+    "description": "Commission bonus",
+    "amount": 1000,
+    "payment_method": "Cash"
+  }
+]
