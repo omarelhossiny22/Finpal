@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | FinPal</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script type="module" src="js/auth/login.js"></script>
+</head>
+
+<body class="auth-page">
+    <div class="auth-container">
+        <div class="auth-illustration">
+            <img src="\assets\images\logos\login-illustration.svg" alt="Login Illustration">
+        </div>
+        <div class="auth-form">
+            <div class="auth-header">
+                <img src="\assets\images\logos\Finpal.svg" alt="FinPal Icon" class="logo-icon">
+                <h1>Welcome Back</h1>
+                <p>Please enter your credentials to login</p>
+            </div>
+
+            <form id="loginForm" onsubmit="return false;">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <div class="form-options">
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+
+            <div class="auth-footer">
+                <p>Don't have an account? <a href="register.html">Sign up</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

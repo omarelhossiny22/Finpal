@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reports | FinPal</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/reports.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.0.2"></script>
+    <script type="module" src="js/app/reports.js"></script>
+</head>
+
+<body class="dashboard-page">
+    <nav class="navbar reports-navbar">
+        <div class="navbar-brand">
+            <a href="dashboard.html">
+                <img src="assets/images/logos/Finpal.png" alt="FinPal Logo">
+            </a>
+        </div>
+
+        <div class="navbar-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="dashboard.html" class="nav-link">
+                        <i class="bi bi-speedometer2"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="records.html" class="nav-link">
+                        <i class="bi bi-list-check"></i>
+                        <span>Records</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="reports.html" class="nav-link">
+                        <i class="bi bi-graph-up"></i>
+                        <span>Reports</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="accounts.html" class="nav-link">
+                        <i class="bi bi-person"></i>
+                        <span>Accounts</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar-user">
+            <div class="user-dropdown">
+                <img src="assets/images/icons/user.svg" alt="User" class="user-avatar">
+                <span class="user-name">Admin</span>
+                <ul class="dropdown-menu">
+                    <li><a href="accounts.html"><i class="bi bi-person-circle"></i> Profile</a></li>
+                    <li><a href="#" id="logoutBtn"><i class="bi bi-box-arrow-right"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="reports-header">
+            <h1><i class="bi bi-graph-up"></i> Financial Reports</h1>
+            <div class="reports-controls">
+                <select id="reportPeriod" class="form-select">
+                    <option value="month" selected>Last Month</option>
+                    <option value="quarter">Last Quarter</option>
+                    <option value="year">Last Year</option>
+                    <option value="all">All Time</option>
+                    <option value="custom">Custom Range</option>
+                </select>
+                <div id="customRange" class="date-range" style="display:none;">
+                    <input type="date" id="startDate" class="form-control">
+                    <span>to</span>
+                    <input type="date" id="endDate" class="form-control">
+                </div>
+                <button id="generateReport" class="btn btn-primary">
+                    <i class="bi bi-arrow-repeat"></i> Generate Report
+                </button>
+                <button id="exportReport" class="btn btn-secondary">
+                    <i class="bi bi-download"></i> Export
+                </button>
+            </div>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loadingIndicator" class="loading-indicator">
+            <div class="spinner"></div>
+            <span>Generating report...</span>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="alert alert-danger" style="display: none;"></div>
+
+        <div class="reports-container">
+            <!-- Summary Cards -->
+            <div class="report-row">
+                <div class="report-card summary-card">
+                    <div class="summary-icon income">
+                        <i class="bi bi-arrow-down-circle"></i>
+                    </div>
+                    <div class="summary-content">
+                        <h3>Total Income</h3>
+                        <p class="amount" id="totalIncome">$0.00</p>
+                    </div>
+                </div>
+
+                <div class="report-card summary-card">
+                    <div class="summary-icon expense">
+                        <i class="bi bi-arrow-up-circle"></i>
+                    </div>
+                    <div class="summary-content">
+                        <h3>Total Expenses</h3>
+                        <p class="amount" id="totalExpenses">$0.00</p>
+                    </div>
+                </div>
+
+                <div class="report-card summary-card">
+                    <div class="summary-icon balance">
+                        <i class="bi bi-wallet2"></i>
+                    </div>
+                    <div class="summary-content">
+                        <h3>Net Balance</h3>
+                        <p class="amount" id="netBalance">$0.00</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Predictive Insights -->
+            <div class="report-card full-width predictive-insights">
+                <div class="insights-header">
+                    <h2><i class="bi bi-lightbulb"></i> Predictive Insights</h2>
+                    <div class="insights-tabs">
+                        <button class="tab-btn active" data-tab="forecast">Forecasts</button>
+                        <button class="tab-btn" data-tab="categorization">Categorization</button>
+                        <button class="tab-btn" data-tab="tips">Personalized Tips</button>
+                    </div>
+                </div>
+
+                <div class="insights-content">
+                    <!-- Forecast Tab -->
+                    <div id="forecast-tab" class="insight-tab active">
+                        <div class="forecast-grid">
+                            <div class="forecast-card">
+                                <h3><i class="bi bi-cash-stack"></i> Next Month's Projection</h3>
+                                <div class="forecast-values">
+                                    <div class="forecast-value">
+                                        <span>Expected Income</span>
+                                        <span class="amount positive" id="forecastIncome">$0.00</span>
+                                    </div>
+                                    <div class="forecast-value">
+                                        <span>Expected Expenses</span>
+                                        <span class="amount negative" id="forecastExpenses">$0.00</span>
+                                    </div>
+                                    <div class="forecast-value">
+                                        <span>Projected Balance</span>
+                                        <span class="amount" id="forecastBalance">$0.00</span>
+                                    </div>
+                                </div>
+                                <div class="forecast-alert" id="forecastAlert"></div>
+                            </div>
+                            <div class="forecast-chart">
+                                <canvas id="forecastChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categorization Tab -->
+                    <div id="categorization-tab" class="insight-tab">
+                        <div class="categorization-grid">
+                            <div class="categorization-card">
+                                <h3><i class="bi bi-tags"></i> Suggested Categories</h3>
+                                <div class="suggestions-list" id="categorySuggestions">
+                                    <!-- Will be populated by JS -->
+                                </div>
+                            </div>
+                            <div class="categorization-card">
+                                <h3><i class="bi bi-exclamation-triangle"></i> Needs Review</h3>
+                                <div class="review-list" id="needsReview">
+                                    <!-- Will be populated by JS -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tips Tab -->
+                    <div id="tips-tab" class="insight-tab">
+                        <div class="tips-grid">
+                            <div class="tips-card">
+                                <h3><i class="bi bi-star"></i> Personalized Recommendations</h3>
+                                <div class="tips-list" id="personalizedTips">
+                                    <!-- Will be populated by JS -->
+                                </div>
+                            </div>
+                            <div class="tips-card">
+                                <h3><i class="bi bi-bullseye"></i> Suggested Goals</h3>
+                                <div class="goals-list" id="suggestedGoals">
+                                    <!-- Will be populated by JS -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Charts -->
+            <div class="report-row">
+                <div class="report-card chart-card">
+                    <div class="chart-header">
+                        <h2><i class="bi bi-pie-chart"></i> Income vs Expenses</h2>
+                        <div class="chart-legend" id="incomeExpenseLegend"></div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="incomeExpenseChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="report-card chart-card">
+                    <div class="chart-header">
+                        <h2><i class="bi bi-bar-chart"></i> Spending by Category</h2>
+                        <div class="chart-legend" id="categoryLegend"></div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Monthly Trends -->
+            <div class="report-card full-width">
+                <div class="chart-header">
+                    <h2><i class="bi bi-graph-up"></i> Monthly Trends</h2>
+                    <div class="chart-legend" id="trendLegend"></div>
+                </div>
+                <div class="chart-container">
+                    <canvas id="monthlyTrendChart"></canvas>
+                </div>
+            </div>
+
+            <!-- Top Transactions -->
+            <div class="report-row">
+                <div class="report-card half-width">
+                    <h2><i class="bi bi-arrow-down-circle"></i> Top Income</h2>
+                    <div class="transactions-list" id="topIncome"></div>
+                </div>
+
+                <div class="report-card half-width">
+                    <h2><i class="bi bi-arrow-up-circle"></i> Top Expenses</h2>
+                    <div class="transactions-list" id="topExpenses"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

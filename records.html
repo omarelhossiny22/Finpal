@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Records | FinPal</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/records.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script type="module" src="js/app/records.js" defer></script>
+</head>
+
+<body class="dashboard-page">
+    <!-- Navigation -->
+    <nav class="navbar records-navbar">
+        <div class="navbar-brand">
+            <a href="dashboard.html">
+                <img src="assets/images/logos/Finpal.png" alt="FinPal Logo">
+            </a>
+        </div>
+
+        <div class="navbar-menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="dashboard.html" class="nav-link">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="records.html" class="nav-link">
+                        <i class="fas fa-list"></i>
+                        <span>Records</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="reports.html" class="nav-link">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Reports</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="accounts.html" class="nav-link">
+                        <i class="fas fa-user"></i>
+                        <span>Accounts</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="navbar-user">
+            <div class="user-dropdown">
+                <img src="assets/images/icons/user.svg" alt="User" class="user-avatar">
+                <span class="user-name">Admin</span>
+                <ul class="dropdown-menu">
+                    <li><a href="accounts.html"><i class="fas fa-user-circle"></i> Profile</a></li>
+                    <li><a href="#" id="logoutBtn"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="records-header">
+            <h1>Transaction Records</h1>
+            <div class="records-actions">
+                <button class="btn btn-primary" id="addTransactionBtn">
+                    <i class="fas fa-plus"></i> Add Transaction
+                </button>
+                <div class="records-filters">
+                    <select id="filterType" class="form-select">
+                        <option value="all">All Transactions</option>
+                        <option value="income">Income</option>
+                        <option value="expense">Expense</option>
+                    </select>
+                    <select id="filterCategory" class="form-select">
+                        <option value="all">All Categories</option>
+                    </select>
+                    <input type="date" id="filterDateFrom" class="form-control">
+                    <input type="date" id="filterDateTo" class="form-control">
+                </div>
+            </div>
+        </div>
+
+        <!-- Messages -->
+        <div id="errorMessage" class="alert alert-danger" style="display: none;"></div>
+        <div id="successMessage" class="alert alert-success" style="display: none;"></div>
+        <div id="loadingIndicator" class="loading-indicator" style="display: none;">
+            <div class="spinner"></div>
+            <span>Loading...</span>
+        </div>
+
+        <div class="records-container">
+            <div class="records-summary">
+                <div class="summary-card income">
+                    <h3>Total Income</h3>
+                    <p class="amount">+$0.00</p>
+                </div>
+                <div class="summary-card expense">
+                    <h3>Total Expenses</h3>
+                    <p class="amount">-$0.00</p>
+                </div>
+                <div class="summary-card balance">
+                    <h3>Current Balance</h3>
+                    <p class="amount">$0.00</p>
+                </div>
+            </div>
+
+            <div class="records-table-container">
+                <table class="records-table">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Sub Category</th>
+                            <th>Type</th>
+                            <th>Amount</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="7" class="no-transactions">Loading transactions...</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="pagination">
+                    <!-- Pagination will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Transaction Modal -->
+    <div class="modal" id="transactionModal" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Add New Transaction</h2>
+                <button class="btn-icon close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="transactionForm">
+                    <div class="form-group">
+                        <label for="transactionDate">Date*</label>
+                        <input type="date" id="transactionDate" name="date" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="transactionType">Type*</label>
+                        <select id="transactionType" name="type" class="form-control" required>
+                            <option value="income">Income</option>
+                            <option value="expense">Expense</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="transactionCategory">Category*</label>
+                        <select id="transactionCategory" name="category" class="form-control" required>
+                            <option value="">Select a category</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="transactionSubCategory">Sub Category</label>
+                        <input type="text" id="transactionSubCategory" name="sub_category" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="transactionDescription">Description*</label>
+                        <input type="text" id="transactionDescription" name="description" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="transactionAmount">Amount*</label>
+                        <input type="number" step="0.01" id="transactionAmount" name="amount" class="form-control"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="transactionPaymentMethod">Payment Method</label>
+                        <select id="transactionPaymentMethod" name="payment_method" class="form-control">
+                            <option value="Cash">Cash</option>
+                            <option value="Credit Card">Credit Card</option>
+                            <option value="Debit Card">Debit Card</option>
+                            <option value="Bank Transfer">Bank Transfer</option>
+                        </select>
+                    </div>
+                    <div class="form-actions">
+                        <button type="button" class="btn btn-secondary cancel">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Save Transaction</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
