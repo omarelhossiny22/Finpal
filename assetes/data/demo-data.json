@@ -1,0 +1,18 @@
+[
+    {
+      "date": "2024-04-01",
+      "category": "Income",
+      "amount": 3000
+    },
+    {
+      "date": "2024-04-03",
+      "category": "Groceries",
+      "amount": -150
+    },
+    {
+      "date": "2024-04-05",
+      "category": "Utilities",
+      "amount": -100
+    }
+  ]
+  
